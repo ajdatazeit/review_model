@@ -1,0 +1,10 @@
+simplemma
+#pickle
+# unicodedata
+tqdm
+datetime
+pytz
+numpy 
+pandas 
+simplemma
+nltk

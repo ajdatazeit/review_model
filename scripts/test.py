@@ -18,11 +18,11 @@ tqdm.pandas(desc="Example Desc")
 
 
 
-data =pd.read_csv("../src/review.csv")
+data =pd.read_csv("../src/review.csv")##table from database
 
 
 obj = Review_Model(records =data)
-df = obj.main()
+df = obj.main() ##final output
 
 print(df.shape)
 print(df.head(2))
